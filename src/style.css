@@ -1,0 +1,121 @@
+/*******************************
+            Global
+*******************************/
+
+html,
+body {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+}
+
+.ui.header {
+  font-family: 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/*******************************
+            Global
+*******************************/
+
+/*******************************
+            Header
+*******************************/
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.ui.list .item > .content .right.floated{
+  margin-left: 1em;
+  float: right;
+}
+
+.mid400{
+  width: 400px;
+  margin: 0 auto;
+}
+/*******************************
+          content
+*******************************/
+.ui.list .item > .content {
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    width: 700px;
+    max-height: 200px;
+}
+
+.ui.list .item .description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 700px;
+}
+.ui.list.home .item > .content {
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+    width: 600px;
+}
+
+.ui.list.home .item .description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 600px;
+    max-height: 50px;
+}
+
+
+/*******************************
+          error
+*******************************/
+.myError{
+  display: block;
+  background-color: rgb(241, 215, 215);
+  color: rgb(169, 82, 82);
+  position: relative;
+  min-height: 18px;
+  margin: 1em 0em;
+  height: auto;
+  padding: 1em;
+  line-height: 1.33;
+  transition: opacity 0.1s ease 0s, color 0.1s ease 0s, background 0.1s ease 0s, box-shadow 0.1s ease 0s;
+  -moz-box-sizing: border-box;
+  border-radius: 0.325em;
+}
+/*******************************
+            links
+*******************************/
+a {
+  color: #009FDA;
+  text-decoration: none;
+}
+a:hover {
+  color: #00BAFF;
+}
+
+/*******************************
+          Responsive
+*******************************/
+
+@media only screen and (max-width : 1000px) {
+  #feed .inbox .date {
+    float: none;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media only screen and (max-width : 1250px) {
+  #feed .left.column > .menu .item {
+    font-size: 1rem;
+  }
+}
+
